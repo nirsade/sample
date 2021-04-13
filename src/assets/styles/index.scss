@@ -1,0 +1,28 @@
+@import "./loader.scss";
+
+html {
+  direction: ltr;
+  overflow: hidden;
+}
+
+.app-container {
+  display: grid;
+  height: 100vh;
+  overflow: hidden;
+  grid-template-rows: 80px auto 40px;
+}
+
+.main-container {
+  overflow: auto;
+  margin: 0;
+  padding: 25px 0;
+  background-color: #f1e0ad;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
